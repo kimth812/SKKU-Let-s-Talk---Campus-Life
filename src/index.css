@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #012d1d;
+  --color-primary-container: #1b4332;
+  --color-primary-fixed: #c1ecd4;
+  --color-primary-fixed-dim: #a5d0b9;
+  --color-on-primary: #ffffff;
+  --color-on-primary-fixed: #002114;
+  --color-on-primary-fixed-variant: #274e3d;
+
+  --color-secondary: #85530b;
+  --color-secondary-container: #fdb96b;
+  --color-secondary-fixed: #ffddba;
+  --color-on-secondary-container: #774800;
+
+  --color-tertiary: #002d1c;
+  --color-tertiary-fixed: #b1f0ce;
+  --color-tertiary-fixed-dim: #95d4b3;
+  --color-on-tertiary-fixed: #002114;
+
+  --color-surface: #fff8f6;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #fcf1ef;
+  --color-surface-container: #f6ecea;
+  --color-surface-container-high: #f0e6e4;
+  --color-surface-container-highest: #eae0de;
+  --color-on-surface: #1f1b1a;
+  --color-on-surface-variant: #414844;
+  --color-outline: #717973;
+  --color-outline-variant: #c1c8c2;
+
+  --font-serif: "Newsreader", Georgia, Cambria, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-headline-study: "Newsreader", Georgia, serif;
+  --font-body-study: "Newsreader", Georgia, serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SKKU, Let's Talk! - Campus Life",
+  "description": "Campus English speaking practice for SKKU students with 3 realistic situations, speech recognition, and instant feedback.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
